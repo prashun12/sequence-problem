@@ -1,0 +1,13 @@
+#!/bin/bash -x
+
+         declare -i n
+         in=inche
+         ft=feet
+
+         if [ "1 $ft = 12 $in" ]
+
+               then
+
+               echo "42 $in = $((42/12)) $ft"
+
+         fi
