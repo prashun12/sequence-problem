@@ -1,0 +1,8 @@
+#!/bin/bash -x
+         sum=0
+         for i in {10..14}
+             do
+        let "sum += ${RANDOM:0:2}"
+             done
+echo "Sum is = " $sum
+echo "Average is = " $(( $sum / 5))
