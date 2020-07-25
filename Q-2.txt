@@ -1,0 +1,17 @@
+ #!/bin/bash -x
+
+    SPOTS=6
+
+    Die1=0
+    Die2=0
+
+   let "Die1 = $RANDOM % $SPOTS +1"
+   let "Die2 = $RANDOM % $SPOTS +1"
+
+
+   let  "throw = $Die1 + $Die2"
+
+   echo "Throw of the dice = $throw"
+   echo
+
+   exit 0
